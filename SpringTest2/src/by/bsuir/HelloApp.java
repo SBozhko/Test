@@ -11,5 +11,6 @@ public class HelloApp {
 		GreetingService greetingService = (GreetingService) factory
 				.getBean("greetingService");
 		greetingService.sayGreeting();
+		greetingService.calc(18);
 	}
 }
